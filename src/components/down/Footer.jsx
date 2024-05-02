@@ -6,12 +6,12 @@ import { dataFooter } from "../../dataFooter";
 export const Footer = () => {
   return (
     <div className="containerfooter">
-      <span className="paragraph">
+      <div className="paragraph">
       <Paragraph data={dataFooter[0]} className="text" />
       <Paragraph data={dataFooter[1]} className="text" />
       <Paragraph data={dataFooter[2]} className="text" />
       <Paragraph data={dataFooter[3]} className="text" />
-      </span>
+      </div>
       <div className="link-footer">
           <a href="https://vk.com/spbgupget">
             <i class="fab fa-vk"></i>

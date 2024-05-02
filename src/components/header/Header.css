@@ -2,11 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 15vh;
-  width: 174.2vh;
-  margin: auto;
-  margin-top: -2vh;
-  border-bottom: 1px solid gray;
+  height: 9%;
+  border-bottom: 0.1vh solid gray;
   background-color: #d2e4ff;
 }
 .img {
@@ -15,10 +12,8 @@
   width: 36.85vh;
 }
 .link-cont {
-  position: absolute;
-  right: 13.3vh;
-  top: 7.7vh;
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
   margin-left: 70%;
 }
@@ -43,4 +38,8 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+}
+ * { 
+  margin:0;
+  padding:0;
 }
